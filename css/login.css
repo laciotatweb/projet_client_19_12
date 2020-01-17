@@ -1,0 +1,133 @@
+@charset "UTF-8";
+    
+
+body, html {
+    padding: 0;
+    margin: 0;
+    font-size: 15px;
+    height: 100vh;
+}
+
+body {
+    font-family: 'Work Sans', sans-serif;
+    text-align: center;
+}
+h1 {
+    font-size: 1.9rem;
+    color: #4F4E4E;
+}
+
+h2 {
+    font-size: 1.5rem;
+    color: #312F2F;
+}
+h3 {
+    font-size: 1.3rem;
+    color: #4f4f4f;
+}
+
+h4 {
+    font-size: 1rem;
+    color: #5C7373;
+}
+
+h5 {
+    font-size: 0.8rem;
+}
+img {
+    max-width: 100%;
+}
+
+@media (min-width:576px) {
+    .container {
+        max-width: 566px
+    }
+
+}
+
+@media (min-width:768px) {
+    .container {
+        max-width: 758px
+    }
+}
+
+@media (min-width:992px) {
+    .container {
+        max-width: 982px
+    }
+}
+
+@media (min-width:1200px) {
+    .container {
+        max-width: 1190px
+    }
+}
+/***Login***/
+        .connect-txt {
+         color: #346BA1;
+         }
+         .form-signin {
+            max-width: 330px;
+            padding: 1rem;
+            margin: 0 auto;
+            color: #017572;
+         }
+         
+         .form-signin .form-signin-heading,
+         .form-signin .checkbox {
+            margin-bottom: 1rem;
+         }
+         
+         .form-signin .checkbox {
+            font-weight: normal;
+         }
+         
+         .form-signin .form-control {
+            
+            height: auto;
+            -webkit-box-sizing: border-box;
+            -moz-box-sizing: border-box;
+            box-sizing: border-box;
+            padding: 1rem;
+            font-size: 1rem;
+         }
+         
+         .form-signin .form-control:focus {
+            z-index: 2;
+         }
+         
+         .form-signin input[type="email"] {
+            margin-bottom: -1px;
+            border-bottom-right-radius: 0;
+            border-bottom-left-radius: 0;
+            border-color:#017572;
+         }
+         
+         .form-signin input[type="password"] {
+            margin-bottom: 1rem;
+            border-top-left-radius: 0;
+            border-top-right-radius: 0;
+            border-color:#017572;
+         }
+       .msg-pop{
+         margin-top: 250px;
+         color: #064F97;
+       }
+/***End login***/
+.navbar {
+    background: #F2F2F2;
+}
+.top-text{
+    padding-left: 1rem;
+}
+.log-slide {
+    margin-top: -45px;
+    padding-top: 0px;
+    height: 260px;
+}
+.container-form {
+    padding-top: 5rem;
+}
+.btn-send{
+    color: #346BA1;
+} 
